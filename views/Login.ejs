@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>SmithOverflow Login</title>
     <!-- Login Form Popup CSS -->
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <label class="modal-btn" for="modal-toggle">Login/Signup</label>  
+    <link rel="stylesheet" href="css/style.css">
+<label class="modal-btn" for="modal-toggle">Login/Signup</label>  
+ 
+                           
+                           <form action="/login" method="post">
+							<input type="text" name="name" value="" id="name" placeholder="Username">
+							<input type="password" name="password" value="" id="password" placeholder="Password">
+                               <input type="submit" value="Log In">
+                           </form>
+       
+                            
+                           <form action="/register" method="post">
+							<input type="text" name="studentName" value="" id="studentName" placeholder="Username">
+							<input type="password" name="studentPassword" value="" id="studentPassword" placeholder="Password">
+                               <input type="submit" value="Sign Up">
+                           </form>
     
-    
-    <form action="/login" method="post">
-        <input type="text" name="name" value="" id="name" placeholder="Username">
-        <input type="password" name="password" value="" id="password" placeholder="Password">
-        <input type="submit" value="Log In">
-    </form>
-    
-    
-    <form action="/register" method="post">
-        <input type="text" name="studentName" value="" id="studentName" placeholder="Username">
-        <input type="password" name="studentPassword" value="" id="studentPassword" placeholder="Password">
-        <input type="submit" value="Sign Up">
-    </form>
-</head>
-</html>
